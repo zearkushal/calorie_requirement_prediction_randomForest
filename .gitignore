@@ -1,0 +1,23 @@
+# Virtual Environments (DO NOT COMMIT THESE)
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment & Secret Files
+.env
+
+# Large Datasets / Raw CSVs (Optional: keep if you don't want raw data on GitHub)
+*.csv
